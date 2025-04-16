@@ -1,13 +1,9 @@
-import './App.css'
+import HeroSection from "./sections/HeroSection"
 
-function App() {
-    return (
+const App = () => {
+  return (
     <>
-      <div>
-      <h1 className="text-3xl text-avocado-100 font-bold underline">
-        Hello world!
-      </h1>
-      </div>
+      <HeroSection />
     </>
   )
 }
